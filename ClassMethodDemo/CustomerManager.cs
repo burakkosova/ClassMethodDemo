@@ -9,13 +9,13 @@ namespace ClassMethodDemo
     {
         private List<Customer> customers = new List<Customer>();
 
-        public void addCustomer(Customer customer)
+        public void AddCustomer(Customer customer)
         {
             customers.Add(customer);
             Console.WriteLine(customer.Id + " id ye sahip müşteri kaydedildi.");
         }
 
-        public void listCustomers()
+        public void ListCustomers()
         {
             bool isEmpty = !customers.Any();
             if (isEmpty)
@@ -32,7 +32,7 @@ namespace ClassMethodDemo
             }
         }
 
-        public void deleteCustomer(int customerId)
+        public void DeleteCustomer(int customerId)
         {
             bool found = false;
             foreach (Customer customer in customers)
