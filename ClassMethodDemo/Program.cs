@@ -44,21 +44,21 @@ namespace ClassMethodDemo
 
             CustomerManager customerManager = new CustomerManager();
 
-            customerManager.listCustomers();
+            customerManager.ListCustomers();
 
-            customerManager.addCustomer(customer1);
-            customerManager.addCustomer(customer2);
-            customerManager.addCustomer(customer3);
-            customerManager.addCustomer(customer4);
+            customerManager.AddCustomer(customer1);
+            customerManager.AddCustomer(customer2);
+            customerManager.AddCustomer(customer3);
+            customerManager.AddCustomer(customer4);
             Console.WriteLine();
             
-            customerManager.listCustomers();
+            customerManager.ListCustomers();
 
             Console.WriteLine();
-            customerManager.deleteCustomer(38);
+            customerManager.DeleteCustomer(38);
             Console.WriteLine();
 
-            customerManager.listCustomers();
+            customerManager.ListCustomers();
         }
     }
 }
