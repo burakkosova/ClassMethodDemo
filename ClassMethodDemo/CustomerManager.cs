@@ -27,7 +27,8 @@ namespace ClassMethodDemo
 
                 foreach (Customer customer in customers)
                 {
-                    Console.WriteLine(customer.Id + " " + customer.FirstName + " " + customer.LastName + " " + customer.TC + " " + customer.AccountNumber);
+                    //Console.WriteLine(customer.Id + " " + customer.FirstName + " " + customer.LastName + " " + customer.TC + " " + customer.AccountNumber);
+                    Console.WriteLine("ID: {0} Musteri Ismi: {1} {2} TC: {3} Hesap Numarasi: {4}", customer.Id, customer.FirstName, customer.LastName, customer.TC, customer.AccountNumber);
                 }
             }
         }
